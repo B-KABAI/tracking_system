@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+
+      <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+
+        <use xlink:href="#bootstrap"></use>
+
+      </svg>
+
+      <span class="fs-4">Simple header</span>
+
+    </a>
+
+    <ul class="nav nav-pills">
+
+      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+
+      <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+
+      <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+
+      <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+
+    </ul>
+
+  </header>
+
+   
+
+   
+
+  <div class="table-responsive">
+
+    <h1>WELCOME TO ENERGY TRACKING SYSTEM</h1>
+
+    <img src =" {{url_for('static',filename ='graph1.png')}}"alt ="Graph" width="600" height="400">
+    <img src =" {{url_for('static',filename ='graph2.png')}}"alt ="Graph" width="600" height="400">
+
+  </div>
+
+   
+
+   
+
+  <div class="mt-3">
+
+    <a href="/" class="btn btn-danger">Logout</a>
+
+  </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,6 @@
+python -m venv env
+env\Scripts\activate.ps1
+pip install flask
+pip install pandas
+pip install matplotlib
+pip install mysql-connector-python
